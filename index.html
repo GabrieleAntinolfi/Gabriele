@@ -3,21 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-  <!-- ✏️ MODIFICA: cambia il titolo con il tuo nome -->
-  <title>Gabriele Antinolfi— Portfolio</title>
+  <title>Gabriele Antinolfi — Portfolio</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- NAVIGAZIONE -->
   <nav>
     <ul>
-      <!-- ✏️ puoi cambiare le voci del menu -->
       <li><a href="#hero">Home</a></li>
       <li><a href="#chi-sono">Chi sono</a></li>
       <li><a href="#competenze">Competenze</a></li>
@@ -31,39 +27,34 @@
 
   <main>
 
-    <!-- ==========================================
-         HERO — presentazione iniziale
-         ========================================== -->
+    <!-- HERO -->
     <section id="hero">
-      <p class="etichetta">Portfolio</p>
-
-      <!-- ✏️ MODIFICA: il tuo nome e cognome -->
-      <h1>Gabriele Antinolfi</h1>
-
-      <!-- ✏️ MODIFICA: una frase breve su di te -->
-      <p class="sottotitolo">
-        Studente di Informatica al terzo anno. Appassionato di moto,
-        e di calcio.
-      </p>
-
-      <!-- ✏️ MODIFICA: le parole chiave che ti descrivono -->
-      <div class="tag-list">
-        <span class="tag">Forza</span>
-        <span class="tag">Carisma</span>
-        <span class="tag">Determinazione</span>
-        <span class="tag">Simpatia</span>
-        <span class="tag">Milano</span>
+      <div class="hero-layout">
+        <div class="hero-testo">
+          <p class="etichetta">Portfolio</p>
+          <h1>Gabriele<br>Antinolfi</h1>
+          <p class="sottotitolo">
+            Studente di Informatica al terzo anno. Appassionato di moto
+            e di calcio.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Forza</span>
+            <span class="tag">Carisma</span>
+            <span class="tag">Determinazione</span>
+            <span class="tag">Simpatia</span>
+            <span class="tag">Milano</span>
+          </div>
+        </div>
+        <div class="hero-foto-wrapper">
+          <img src="./img/Ritratto.jpg" alt="Gabriele Antinolfi" class="hero-foto">
+        </div>
       </div>
     </section>
 
-    <!-- ==========================================
-         CHI SONO
-         ========================================== -->
+    <!-- CHI SONO -->
     <section id="chi-sono">
       <p class="etichetta">Chi sono</p>
       <h2>Informazioni personali</h2>
-
-      <!-- ✏️ MODIFICA: scrivi qualcosa su di te -->
       <p style="margin-top: 16px;">
         Mi chiamo Gabriele Antinolfi, ho 18 anni e frequento il terzo anno
         dell'indirizzo Informatica. Sono curioso,
@@ -71,9 +62,8 @@
         Nel tempo libero mi piace andare in moto e giocare a calcio.
       </p>
 
-      <div class="griglia-2col" style="margin-top: 40px;">
+      <div class="griglia-2col" style="margin-top: 44px;">
         <div>
-          <!-- ✏️ MODIFICA: le tue informazioni -->
           <div class="info-riga">
             <span>Nome</span>
             <span>Gabriele Antinolfi</span>
@@ -112,17 +102,14 @@
       </div>
     </section>
 
-    <!-- ==========================================
-         COMPETENZE
-         ========================================== -->
+    <!-- COMPETENZE -->
     <section id="competenze">
       <p class="etichetta">Competenze</p>
       <h2>Cosa so fare</h2>
-      <p style="margin-top: 8px;">
+      <p style="margin-top: 10px;">
         Le competenze tecniche acquisite durante l'anno scolastico.
       </p>
 
-      <!-- ✏️ MODIFICA: le tue competenze e il livello (da 0% a 100%) -->
       <div class="competenze-griglia">
 
         <div class="competenza-card">
@@ -165,92 +152,73 @@
           <p class="livello-label">Base</p>
         </div>
 
-        <!-- ✏️ aggiungi altre competenze copiando il blocco sopra -->
-
       </div>
     </section>
 
-    <!-- ==========================================
-         PROGETTI
-         ========================================== -->
+    <!-- PROGETTI -->
     <section id="progetti">
       <p class="etichetta">Progetti</p>
       <h2>Gioco</h2>
-      <p style="margin-top: 8px;">
+      <p style="margin-top: 10px;">
         I progetti sviluppati durante l'anno scolastico.
       </p>
 
       <div class="progetti-lista">
 
-        <!-- PROGETTO 1 — ✏️ MODIFICA con il tuo progetto -->
         <div class="progetto-card">
           <div class="progetto-immagine">
-            <!-- ✏️ sostituisci questo placeholder con un'immagine del progetto:
-                 <img src="screenshot-progetto.jpg" alt="Nome progetto" style="width:100%;height:100%;object-fit:cover;">
-            -->
-            <img src="./img/Screenshot 2026-05-19 085409.png " alt="Gioco con AI" style="width:100%;height:100%;object-fit:cover;">
+            <img src="./img/Gioco.png" alt="Gioco con AI" style="width:100%;height:100%;object-fit:cover;">
           </div>
           <div class="progetto-corpo">
-            <h2>Gioco Con Ai</h2>
-            <p style="margin-top: 8px;">
-              Gioco sviluppato per sensibilizzare il tema dell'inquinamento della plastica, il personaggio deve cercare di raccogliere più plastica possibile.
+            <h2>Gioco Con AI</h2>
+            <p style="margin-top: 10px;">
+              Gioco sviluppato per sensibilizzare il tema dell'inquinamento della plastica.
+              Il personaggio deve cercare di raccogliere più plastica possibile.
             </p>
             <div class="progetto-meta">
-              <!-- ✏️ aggiungi i linguaggi / strumenti usati -->
               <span class="badge">AI</span>
               <span class="badge">Claude</span>
             </div>
-            <!-- ✏️ se hai un link al progetto, inseriscilo qui -->
-            <!-- <a href="#" class="progetto-link">→ Vedi il progetto</a> -->
           </div>
         </div>
 
-        <!-- PROGETTO 2 — ✏️ MODIFICA con il tuo progetto -->
         <div class="progetto-card">
           <div class="progetto-immagine">
-            <img src="./img/Screenshot 2026-05-19 093436.png " alt="Sito WordPress con Divi" style="width:100%;height:100%;object-fit:cover;">
+            <img src="./img/WordPress.png" alt="Sito WordPress con Divi" style="width:100%;height:100%;object-fit:cover;">
           </div>
           <div class="progetto-corpo">
             <h2>Sito WordPress con Divi</h2>
-            <p style="margin-top: 8px;">
-              Sito dedicato alla casa di moto yamaha, realizzato con wordpress e il builder Divi.
+            <p style="margin-top: 10px;">
+              Sito dedicato alla casa di moto Yamaha, realizzato con WordPress e il builder Divi.
             </p>
             <div class="progetto-meta">
-              <span class="badge">Wordpress</span>
+              <span class="badge">WordPress</span>
               <span class="badge">Divi</span>
             </div>
           </div>
         </div>
 
-        <!-- ✏️ copia un blocco qui sopra per aggiungere altri progetti -->
-
       </div>
     </section>
 
-    <!-- ==========================================
-         CV
-         ========================================== -->
+    <!-- CV -->
     <section id="cv">
       <p class="etichetta">Curriculum Vitae</p>
       <h2>Il mio CV</h2>
-      <p style="margin-top: 8px;">
+      <p style="margin-top: 10px;">
         Formazione, esperienze e competenze in formato sintetico.
       </p>
 
-      <!-- BOTTONE DOWNLOAD PDF -->
       <div class="cv-download-bar">
         <p>Scarica la versione completa in PDF.</p>
-        <!-- ✏️ MODIFICA: sostituisci "cv.pdf" con il nome del tuo file PDF -->
-        <a href="cv.pdf" download="NomeCognome_CV.pdf" class="btn-scarica">
+        <a href="cv.pdf" download="GabrieleAntinolfi_CV.pdf" class="btn-scarica">
           ↓ &nbsp;Scarica CV (PDF)
         </a>
       </div>
 
-      <!-- FORMAZIONE -->
       <div class="cv-blocco">
         <p class="cv-blocco-titolo">Formazione</p>
 
-        <!-- ✏️ MODIFICA: il tuo percorso scolastico -->
         <div class="cv-riga">
           <span class="cv-periodo">2023 – oggi</span>
           <div class="cv-contenuto">
@@ -265,38 +233,27 @@
           <span class="cv-periodo">2018 – 2023</span>
           <div class="cv-contenuto">
             <h3>Licenza Media</h3>
-            <!-- ✏️ MODIFICA: la tua scuola media -->
-            <span class="cv-luogo">IC Renzo Pezzani (Martinengo) — [Milano]</span>
+            <span class="cv-luogo">IC Renzo Pezzani (Martinengo) — Milano</span>
             <p>Votazione: 7/10.</p>
           </div>
         </div>
-
-        <!-- ✏️ aggiungi altri blocchi copiando una cv-riga -->
       </div>
 
-      <!-- ESPERIENZE -->
       <div class="cv-blocco">
         <p class="cv-blocco-titolo">Esperienze</p>
 
-        <!-- ✏️ MODIFICA: aggiungi stage, lavori, volontariato, ecc. -->
         <div class="cv-riga">
-          <span class="cv-periodo">2025 - 2026</span>
+          <span class="cv-periodo">2025 – 2026</span>
           <div class="cv-contenuto">
             <h3>Stage</h3>
-            <!-- ✏️ MODIFICA: azienda o contesto -->
             <span class="cv-luogo">Tech Fix Store — Milano</span>
             <p>Smontaggio e riparazioni computer e telefoni.</p>
           </div>
         </div>
-
-        <!-- ✏️ se non hai esperienze lavorative ancora, puoi rimuovere
-             questa sezione o usarla per progetti extrascolastici -->
       </div>
 
-      <!-- COMPETENZE TECNICHE -->
       <div class="cv-blocco">
         <p class="cv-blocco-titolo">Competenze tecniche</p>
-        <!-- ✏️ MODIFICA: le tue competenze -->
         <div class="cv-skill-lista">
           <span class="cv-skill">Python</span>
           <span class="cv-skill">HTML / CSS</span>
@@ -309,7 +266,6 @@
         </div>
       </div>
 
-      <!-- LINGUE -->
       <div class="cv-blocco">
         <p class="cv-blocco-titolo">Lingue</p>
 
@@ -323,7 +279,6 @@
         <div class="cv-riga">
           <span class="cv-periodo">Inglese</span>
           <div class="cv-contenuto">
-            <!-- ✏️ MODIFICA: il tuo livello -->
             <h3>Livello B1 — scolastico</h3>
           </div>
         </div>
@@ -331,42 +286,30 @@
 
     </section>
 
-    <!-- ==========================================
-         CONTATTI
-         ========================================== -->
+    <!-- CONTATTI -->
     <section id="contatti">
       <p class="etichetta">Contatti</p>
       <h2>Dove trovarmi</h2>
-      <p style="margin-top: 8px;">
+      <p style="margin-top: 10px;">
         Puoi contattarmi tramite email o trovare i miei lavori online.
       </p>
 
       <div class="contatti-lista">
-
-        <!-- ✏️ MODIFICA: la tua email -->
-        <a href="/cdn-cgi/l/email-protection#3b4f4e5a7b5e565a525715524f" class="contatto-riga">
+        <a href="mailto:gabrieleantinolfi11@gmail.com" class="contatto-riga">
           <span class="contatto-icona">Email</span>
-          <span><span class="__cf_email__" data-cfemail="5d29283c1d38303c3431733429">gabrieleantinolfi11@gmail.com</span></span>
+          <span>gabrieleantinolfi11@gmail.com</span>
         </a>
 
-        <!-- ✏️ MODIFICA: il tuo profilo GitHub (se ce l'hai) -->
-        <a href="https://github.com/tuousername" class="contatto-riga" target="_blank">
+        <a href="https://github.com/GabrieleAntinolfi" class="contatto-riga" target="_blank">
           <span class="contatto-icona">GitHub</span>
           <span>github.com/GabrieleAntinolfi</span>
         </a>
-
-        <!-- ✏️ aggiungi altri link (LinkedIn, ecc.) copiando il blocco sopra
-             oppure cancella quelli che non usi -->
-
       </div>
     </section>
 
-    
-
   </main>
 
-    <footer>
-    <!-- ✏️ MODIFICA: il tuo nome -->
+  <footer>
     © 2026 Gabriele Antinolfi — Portfolio scolastico
   </footer>
 
